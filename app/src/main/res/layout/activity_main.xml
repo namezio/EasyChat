@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#A12354"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:textColor="#12f254"
+        android:layout_marginTop="100dp"
+        android:textAlignment="center"
+        android:textSize="55dp"
+        android:text="Easy Chat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtUser"
+        android:layout_margin="10dp"
+        android:textColorHint="#FFF0"
+        android:hint="Username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edtPass"
+        android:layout_margin="10dp"
+        android:textColorHint="#FFF0"
+        android:hint="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btnLoginFb"
+        android:text="Login with Facebook"
+        android:layout_margin="5dp"
+        android:background="#F15433"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tvSignUp"
+        android:textColor="#FFF"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="Sign Up"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
